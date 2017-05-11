@@ -1,0 +1,6 @@
+
+yourfilenames=`ls ./*.txt`
+for eachfile in $yourfilenames
+do
+   echo $eachfile
+done
